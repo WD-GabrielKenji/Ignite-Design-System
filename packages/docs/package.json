@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
-    "lint": "eslint src/**/*.tsx* --fix",
-    "deploy-storybook": "storybook-to-ghpages"
+    "lint": "eslint src/**/*.tsx* --fix"
   },
   "keywords": [],
   "author": "",
@@ -28,9 +27,10 @@
   },
   "dependencies": {
     "@gk-ignite-ui/eslint-config": "*",
-    "@gk-ignite-ui/ts-config": "*",
-    "@gk-ignite-ui/tokens": "*",
     "@gk-ignite-ui/react": "*",
+    "@gk-ignite-ui/tokens": "*",
+    "@gk-ignite-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
