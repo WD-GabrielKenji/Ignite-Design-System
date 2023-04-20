@@ -1,0 +1,14 @@
+import { ComponentProps } from '../types/ComponentProps'
+
+import { styled } from '../styles'
+
+export const Box = styled('div', {
+  padding: '$6',
+  border: '1px solid $gray600',
+  borderRadius: '$md',
+  backgroundColor: '$gray800',
+})
+
+export type BoxProps = ComponentProps<typeof Box>
+
+Box.displayName = 'Box'
