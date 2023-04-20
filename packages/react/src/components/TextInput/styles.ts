@@ -28,6 +28,10 @@ export const TextInputContainer = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  defaultVariants: {
+    size: 'md',
+  },
 })
 
 export const Prefix = styled('span', {
@@ -55,6 +59,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })
