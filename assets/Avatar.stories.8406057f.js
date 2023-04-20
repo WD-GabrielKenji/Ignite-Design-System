@@ -1,0 +1,2 @@
+import{A as t}from"./index.0a336076.js";import"./index.dfc6bcda.js";import"./iframe.650e5592.js";import"./index.2991728d.js";import"./jsx-runtime.a9b81794.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/WD-GabrielKenji.png",alt:"Gabriel Kenji"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.8406057f.js.map
